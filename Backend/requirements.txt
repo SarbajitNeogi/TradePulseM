@@ -1,0 +1,14 @@
+flask
+flask_pymongo
+bcrypt
+flask-cors
+requests
+bs4
+websocket-client
+tradingview_ta
+ccxt
+pandas
+matplotlib
+pandas_datareader
+scikit-learn
+tensorflow

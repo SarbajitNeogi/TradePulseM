@@ -1,0 +1,90 @@
+.trade-list-page {
+    padding: 30px 10dvw;
+    min-height: 100vh;
+  }
+  
+  .search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-box input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 500px;
+    margin-right: 2px;
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  .search-box button {
+    padding: 10px 16px;
+    font-size: 16px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+  }
+
+  .filter-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-area select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+
+  .filter-area option:checked, .filter-area option:hover {
+    background: #ffc801;
+    color: white;
+  }
+  
+  .data-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .data-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.15);
+    font-size: 1rem;
+  }
+  .data-item:hover {
+    box-shadow: 0px 0px 5px gray;
+    font-size: 1.02rem;
+  }
+
+@media screen and (max-width: 768px) {
+    .trade-list-page {
+        padding: 30px 1rem;
+    }
+    .search-box input[type="text"] {
+        width: 100%;
+    }
+    .filter-area {
+        flex-direction: column;
+    }
+    .filter-area select {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 5px;
+    } 
+    
+}
+  

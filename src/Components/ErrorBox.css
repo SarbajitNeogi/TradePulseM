@@ -1,0 +1,52 @@
+.error-box {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffcccc;
+    padding: 20px 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border-top: 5px solid red;
+  }
+  .notify-box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(157, 255, 157, 0.9);
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    border-left: 5px solid green;
+  }
+  .notify-box p {
+    padding: 10px;
+    color: green;
+    font-weight: 700;
+    font-size: 1.1rem;
+
+  }
+  .error-box p {
+    margin: 0;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .close-icon:hover,.notify-close-icon:hover {
+    color: #ff0000;
+  }
+
+  .notify-close-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: green;
+  }
+  

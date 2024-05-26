@@ -1,0 +1,79 @@
+.home-charts {
+  display: grid;
+  margin-top: 20px;
+  padding: 1rem 10dvw;
+  gap: 1rem;
+}
+.home-charts.signed {
+  grid-template-columns: 40% 30% 30%;
+}
+
+.home-charts.not-signed {
+  grid-template-columns: 70% 30%;
+}
+
+.hero-chart, .side-hero, .profile-card {
+  overflow: hidden;
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 10px;
+  height: 500px;
+  padding: 5px;
+}
+.profile-card {
+  display: flex;
+  flex-direction: column;
+}
+.profile-graph {
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.profile-card-heading {
+  font-size: 1.7rem;
+  padding: 20px;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 500;
+}
+
+.profile-card-bal-title {
+  font-size: 2rem;
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 2rem;
+}
+
+.profile-card-name {
+  font-size: 1.2rem;
+  font-family: 'Open sans', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.profile-card a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  background-color: black;
+  border-radius: 0px 0px 10px 10px;
+  transition-duration: 0.3s;
+  text-align: center;
+}
+.profile-card a:hover {
+  color: black;
+  border: 1px solid black;
+  background-color: transparent;
+}
+@media screen and (max-width: 768px) {
+
+  .home-charts.signed, .home-charts.not-signed {
+    padding: 1rem;
+    grid-template-columns: auto;
+  }
+
+  
+}

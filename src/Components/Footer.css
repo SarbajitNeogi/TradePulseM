@@ -1,0 +1,27 @@
+.footer {
+    background: radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, #ffc801 68% 70%, #0000 72%) 37px 37px/calc(2 * 37px)
+        calc(2 * 37px), radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, #ffc801 68% 70%, #0000 72%) 37px 37px/calc(2 * 37px)
+        calc(2 * 37px), radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, #ffc801 68% 70%, #0000 72%) 0 0/calc(2 * 37px)
+        calc(2 * 37px), radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, #ffc801 68% 70%, #0000 72%) 0 0/calc(2 * 37px)
+        calc(2 * 37px), repeating-conic-gradient(#ffd701 0 25%, #0000 0 50%) 0 0/calc(2 * 37px) calc(2 * 37px),
+      radial-gradient(#0000 66%, #ffc801 68% 70%, #0000 72%) 0 calc(37px / 2) / 37px 37px #ffd701;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0px -1px 10px gray;
+  }
+  
+  .footer-icons {
+    margin-bottom: 10px;
+  }
+  
+  .footer-icon-link {
+    color: #000;
+    margin-right: 10px;
+  }
+  
+  .footer-text {
+    color: #000;
+    margin: 0;
+  }
+  

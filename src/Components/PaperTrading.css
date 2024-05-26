@@ -1,0 +1,98 @@
+.paper-trading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .buy {
+    background-color: green;
+  }
+  .sell{
+    background-color: red;
+  }
+  
+  .trade-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trade-form > div {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  .trade-input-box input{
+    padding: 0.5rem;
+    width: 150px;
+    border-radius: 5px;
+    border-color: #dddddd;
+  }
+  .action-buttons {
+    margin: 20px 0;
+  }
+
+  .action-buttons button.active {
+    opacity: 1;
+    border: 2px solid black;
+  }
+  .action-buttons button {
+    border: 2px transparent;
+    opacity: 0.5;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  .action-buttons button:hover {
+    background-color: black;
+  }
+  
+  .trade-button {
+    padding: 0.5rem 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .quantity-calculate{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+  }
+
+  .quantity-calculate input {
+    width: 100px;
+  }
+  .quantity-calculate button {
+    width: 1rem;
+    border-radius: 0;
+    padding: 0.5rem 0.1rem;
+}
+
+.quantity-calculate button:first-child {
+    border-radius: 50% 0 0 50%;
+}
+
+.quantity-calculate button:nth-child(3) {
+    border-radius: 0 50% 50% 0;
+}
+
+  .show-trade-value {
+    position: absolute;
+    top: 2.5rem;
+    width: 100%;
+  }
+
+  
+  .trade-button:hover {
+    background-color: gray;
+  }
+  

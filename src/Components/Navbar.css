@@ -1,0 +1,137 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10dvw;
+    background: radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, #ffc801 68% 70%, #0000 72%) 37px 37px/calc(2 * 37px)
+        calc(2 * 37px), radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, #ffc801 68% 70%, #0000 72%) 37px 37px/calc(2 * 37px)
+        calc(2 * 37px), radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, #ffc801 68% 70%, #0000 72%) 0 0/calc(2 * 37px)
+        calc(2 * 37px), radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, #ffc801 68% 70%, #0000 72%) 0 0/calc(2 * 37px)
+        calc(2 * 37px), repeating-conic-gradient(#ffd701 0 25%, #0000 0 50%) 0 0/calc(2 * 37px) calc(2 * 37px),
+      radial-gradient(#0000 66%, #ffc801 68% 70%, #0000 72%) 0 calc(37px / 2) / 37px 37px #ffd701;
+    overflow: hidden;
+
+    box-sizing: border-box;
+    box-shadow: 0px 1px 10px gray;
+  }
+  
+  .navbar img {
+    height: 80px;
+    filter: brightness(10%);
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .nav-config {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.3s ease-in;
+  }
+  
+  .nav-config.show {
+    transform: translateX(0);
+  }
+  
+  .nav-config li {
+    display: inline;
+    margin-right: 2rem;
+  }
+  
+  .nav-config a {
+    color: black;
+    font-size: 1rem;
+    padding: 0.2rem;
+    text-decoration: none;
+    transition-duration: 0.3s;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-config a:hover {
+    border-bottom: 1px solid black;
+  }
+
+  #signin {
+    margin-left: 1rem;
+    margin-right: 0;
+  }
+  #signin a, #signup a, #profile a {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 0.75rem 1.5rem;
+    color: white;
+  }
+  #signin a {
+    border-radius: 10px 0px 0px 10px;
+    border-right: 0.5px solid white;
+  }
+  #signup a {
+    border-radius: 0px 10px 10px 0px;
+  }
+  #profile a {
+    border-radius: 10px;
+  }
+  #signin a:hover, #signup a:hover, #profile a:hover{
+    border-bottom: 0;
+    background-color: black;
+  }
+  
+  @media screen and (max-width: 765px) {
+    .navbar {
+      padding: 10px 1rem;
+    }
+
+    .navbar img{
+        height: 3rem;
+    }
+  
+    .nav-menu {
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 10px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      color: black;
+      font-size: 3rem;
+      z-index: 2;
+    }
+  
+    .navbar .nav-config {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 250px;
+      height: 100%;
+      background-color: #ffc801;
+      padding-top: 50px;
+      z-index: 1;
+      overflow-y: auto;
+    }
+  
+    .navbar .nav-config.show {
+      display: block;
+    }
+
+    #signin a, #signup a {
+      border-right: 0;
+      border-radius: 10px;
+    }
+    #signin {
+      margin-left: 0;
+    }
+  
+    .navbar .nav-config li {
+      display: block;
+      text-align: center;
+      margin-bottom: 2rem;
+      margin-right: 0;
+    }
+  }
+  

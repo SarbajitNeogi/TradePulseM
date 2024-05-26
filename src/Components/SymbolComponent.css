@@ -1,0 +1,184 @@
+.symbol-component-page {
+   display: flex;
+   flex-direction: column;
+   min-height: 100svh;
+ }
+.symbol-page {
+    padding: 10px 10dvw;
+}
+
+.loader-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: calc(100vh - 100px);
+ }
+ 
+ .spinner {
+   width: 5.6px;
+   height: 5.6px;
+   animation: spinner-xp626r 1s infinite;
+   border-radius: 50%;
+   box-shadow: 22.4px 0 0 5.6px #ffc801, -22.4px 0 0 5.6px #ffc801;
+ }
+ 
+ @keyframes spinner-xp626r {
+   to {
+     transform: rotate(360deg);
+   }
+ }
+
+ .advanced-chart {
+    overflow: hidden;
+    height: 500px;
+ }
+
+ .symbol-page-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+ .symbol-page-header img {
+    height: 3rem;
+ }
+ .symbol-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open sans', sans-serif;
+ }
+ .symbol-title-head {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+ }
+ .symbol-price-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Open sans', sans-serif;
+ }
+
+ .price-head{
+   font-family: 'Open sans', sans-serif;
+ }
+ .price-content {
+   font-family: 'Open sans', sans-serif;
+   font-size: 2rem;
+   font-weight: 600;
+ }
+ .price-change-box{
+   font-family: 'Open sans', sans-serif;
+   font-weight: 600;
+   text-align: right;
+   font-size: 1.1rem;
+ }
+
+ .price-change-box.up{
+   color: green;
+ }
+ .price-change-box.down{
+   color: red;
+ }
+
+ .symbol-info, .trading-center-box, .view-plot{
+   padding: 20px;
+   border-radius: 10px;
+   box-sizing: border-box;
+   box-shadow: 0px 0px 5px gray;
+   margin-top: 40px;
+   font-family: 'Open sans', sans-serif;
+ }
+ .upper-flow {
+   position: absolute;
+   background-color: #ffc801;
+   padding: 5px 20px;
+   border-radius: 10px;
+   width: 75%;
+   font-weight: 600;
+   font-family: 'Poppins', sans-serif;
+   transform: translateY(-40px);
+   box-shadow: 0px 0px 5px gray;
+ }
+ .trading-center-box input {
+   font-size: 1rem;
+ }
+ .trading-center-box > div {
+   display: grid;
+   grid-template-columns: 50% auto;
+ }
+ .trading-center-box > div > div > div{
+   display: flex;
+   gap: 20px;
+   font-size: 1.1rem;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+ }
+ .trading-center-box > div > div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+ }
+ .view-plot {
+   display: grid;
+   grid-template-columns: auto auto;
+ }
+ .plot-heading{
+   padding: 5px 10px;
+   font-size: 1.2rem;
+   font-weight: 600;
+ }
+ .plot-graph-pred{
+   border-radius: 20px;
+   margin: 10px;
+   width: 40%;
+   background-color: #dddddd7e;
+ }
+ .boxes {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .box {
+   width: 50px;
+   height: 50px;
+   background-color: #dddd;
+   border-radius: 50%;
+   margin: 0 10px;
+   transition: background-color 0.5s ease;
+ }
+
+ .box.red {
+   background-color: red;
+ }
+
+ .box.yellow {
+   background-color: rgb(247, 198, 0);
+ }
+
+ .box.brown {
+   background-color: rgb(146, 0, 0);
+ }
+
+ .box.green {
+   background-color: green;
+ }
+
+@media screen and (max-width: 900px) {
+    .symbol-page {
+        padding: 10px 1rem;
+    }
+    .trading-center-box > div {
+      grid-template-columns: auto;
+    }
+    
+}
