@@ -6,39 +6,95 @@ TradePulse is a robust online trading application developed to cater to the need
 
 ## Features
 
-1. **User Registration:**
-   - Patients and doctors can register using the system.
-   - Patients provide basic information such as username, email, and password.
-   - Doctors provide additional information, including their type of specialization.
+### Home Page
 
-2. **User Login and Logout:**
-   - Users can log in to access personalized dashboards.
-   - Sessions are managed to ensure secure access, and users can log out when done.
+#### Dashboard Overview
+- Provides a snapshot of your portfolio performance, including current holdings and overall profit/loss.
+- Displays real-time stock market data and key financial metrics.
 
-3. **Appointment Booking:**
-   - Patients can book appointments with doctors.
-   - Doctors can view and manage appointments assigned to them.
+#### Market News and Analysis
+- Shows the latest financial news and market analysis to keep users informed about market trends and events.
+- Includes personalized news recommendations based on user portfolio and interests.
 
-4. **Disease Prediction:**
-   - A machine learning model predicts diseases based on user-input symptoms.
-   - The system uses a Decision Tree Classifier trained on medical data.
+### Sign In/Sign Up Page
 
-5. **Blog Section:**
-   - Information on various health-related topics is provided through blog posts.
-   - Topics include Transforming Healthcare, Holistic Health, Nourishing Body, and Importance of Games.
+#### User Authentication
+- Allows new users to create an account using email or social media login options.
+- Existing users can sign in securely with multi-factor authentication.
 
-6. **Admin Section:**
-   - Admins can access an admin dashboard (admin.html).
-   - Admins have privileged access to manage the system.
+#### User Onboarding
+- Includes a guided onboarding process to help new users set up their profiles and preferences.
+- Provides an initial walkthrough of the app features and functionalities.
 
-7. **Privacy Policy:**
-   - Users can view the privacy policy.
+### Home Page After Sign-Up
 
-8. **Video Call:**
-   - Users can access a video call feature (videocall.html).
+#### Personalized Welcome Dashboard
+- Greets the user with a personalized dashboard tailored to their investment profile.
+- Highlights key features and suggests initial actions based on user preferences.
 
-9. **Scans Section:**
-   - Users can find information on different medical scans, such as brain tumor, lung, and cataract scans.
+#### Quick Access Links
+- Provides quick links to important sections such as portfolio, watchlist, and market news.
+- Features a search bar for easy navigation within the app.
+
+### Bitcoin Trading
+
+#### Real-Time Bitcoin Prices
+- Displays live Bitcoin prices with interactive charts for in-depth analysis.
+- Provides historical data and price trends for informed trading decisions.
+
+#### Trading Interface
+- Allows users to buy and sell Bitcoin with real-time execution of trades.
+- Includes advanced trading options like stop-loss and limit orders for better risk management.
+
+### Trading Interface
+
+#### User-Friendly Design
+- Intuitive interface with easy navigation for a seamless trading experience.
+- Customizable layouts to suit different trading styles and preferences.
+
+#### Advanced Trading Tools
+- Provides technical analysis tools like charts, indicators, and drawing tools.
+- Includes real-time alerts and notifications for price movements and trade executions.
+
+### Buy Order Executed
+
+#### Instant Confirmation
+- Displays immediate confirmation of the buy order with transaction details.
+- Updates the portfolio to reflect the new asset acquisition.
+
+#### Order Summary
+- Shows a summary of the buy order including price, quantity, and total cost.
+- Provides options to view detailed transaction history or place another order.
+
+### Exit Order Executed
+
+#### Sell Confirmation
+- Confirms the successful execution of the sell order with all relevant details.
+- Updates the portfolio to reflect the asset sale and available cash balance.
+
+#### Performance Analysis
+- Provides an analysis of the trade, including profit or loss calculation.
+- Offers insights and suggestions for future trades based on historical performance.
+
+### Sell Order Executed
+
+#### Instant Feedback
+- Provides immediate feedback on the sell order execution, including price and quantity sold.
+- Updates portfolio and available funds in real-time.
+
+#### Detailed Report
+- Generates a detailed report of the sell transaction for user records.
+- Allows users to download or share the report directly from the app.
+
+### Searching Market Pairs
+
+#### Comprehensive Search Functionality
+- Allows users to search for market pairs using various filters such as sector, market cap, and performance.
+- Provides real-time data and comparison tools for selected market pairs.
+
+#### Watchlist Integration
+- Enables users to add market pairs to their watchlist directly from the search results.
+- Offers notifications and alerts for significant movements in watched market pairs.
 
 ## Project Structure
 
