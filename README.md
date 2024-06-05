@@ -121,7 +121,7 @@ TradePulse is a robust online trading application developed to cater to the need
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the application: `python app.py`
 
-Visit [http://localhost:5000](http://localhost:5000) in your browser to access the Trading Management System.
+Visit [http://localhost:5173](http://localhost:5173) in your browser to access the Trading Management System.
 
 ## Dependencies
 
