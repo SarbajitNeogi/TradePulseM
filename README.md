@@ -2,7 +2,7 @@
 
 <img src="75ez.gif" align="right" height="300px">
 
-Jan Sevak is a web application developed using Flask, a web framework in Python that aims to assist patients in obtaining the necessary medical care for their needs. The system allows users to register as patients or doctors, book appointments, and predict diseases based on symptoms. Doctors can view and manage appointments, while patients can track their appointments and update their profiles. Additionally, the system provides information on various health-related topics through blog posts and also analyses mental health conditiion of patients.
+TradePulse is a robust online trading application developed to cater to the needs of both novice and experienced traders. Leveraging the power of modern web technologies, TradePulse provides real-time stock data, enabling users to make informed trading decisions. Users can register as traders, track their portfolios, and execute trades seamlessly. One of the standout features of TradePulse is its price prediction capability, utilizing Long Short-Term Memory (LSTM) networks to forecast future stock prices based on historical data. In addition to trading functionalities, the app offers insightful market analysis, financial news, and educational resources to help users stay updated on market trends and enhance their trading strategies. Whether you are a seasoned trader looking for advanced tools or a beginner seeking guidance, TradePulse is designed to elevate your trading experience.
 
 ## Features
 
@@ -51,12 +51,12 @@ Jan Sevak is a web application developed using Flask, a web framework in Python 
 ## Workflow Explanation
 
 
-https://github.com/deepraj21/JanSevak/assets/106394426/80da0f97-b0d8-436d-8191-59011eeb72da
+
 
 
    
 ## Architectural Diagram
-![JanSevak - Architectural Diagram](https://github.com/deepraj21/JanSevak/assets/106394426/91af5902-6ed5-4817-887b-ff89fcdcba86)
+![TradePulse - Architectural Diagram](System-Architecture-of-Stock-Market-Prediction-using-LSTM-and-XAI-Shows-how-the-data-is.ppm)
 
 
 ## Getting Started
@@ -65,7 +65,7 @@ https://github.com/deepraj21/JanSevak/assets/106394426/80da0f97-b0d8-436d-8191-5
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the application: `python app.py`
 
-Visit [http://localhost:5000](http://localhost:5000) in your browser to access the HealthCare Management System.
+Visit [http://localhost:5000](http://localhost:5000) in your browser to access the Trading Management System.
 
 ## Dependencies
 
