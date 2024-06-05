@@ -116,7 +116,7 @@ For more detailed information about the TradePulse app, please refer to the foll
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/JanSevak.git`
+1. Clone the repository: `git clone https://github.com/your-username/TradePulseM.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the application: `python app.py`
 
@@ -124,11 +124,11 @@ Visit [http://localhost:5173](http://localhost:5173) in your browser to access t
 
 ## Dependencies
 
+- NPM React
 - Flask
-- Flask-SQLAlchemy
 - Plotly
 - NumPy
-- TensorFlow
+- LSTM
 - Scikit-learn
 
 <!-- ## Contributors
