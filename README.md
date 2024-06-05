@@ -110,11 +110,6 @@ For more detailed information about the TradePulse app, please refer to the foll
 
 - [TradePulse Report](Report_trade_pulse.docx) : Comprehensive report detailing the features, architecture, and implementation of TradePulse.
 
-
-
-
-
-   
 ## Architectural Diagram
 ![TradePulse - Architectural Diagram](System-Architecture-of-Stock-Market-Prediction-using-LSTM-and-XAI-Shows-how-the-data-is.ppm)
 
@@ -148,4 +143,3 @@ Feel free to contribute to the project by opening issues or creating pull reques
 
 This project is licensed under the [MIT License](LICENSE).
 
-For any inquiries or support, please contact us at [support@tradepulse.com](mailto:cs.sarba813@gmail.com).
