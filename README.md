@@ -147,3 +147,5 @@ Feel free to contribute to the project by opening issues or creating pull reques
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+For any inquiries or support, please contact us at [support@tradepulse.com](mailto:cs.sarba813@gmail.com).
