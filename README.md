@@ -1,4 +1,4 @@
-# Jansevak
+# TradePulse
 
 <img src="static/images/doctors-animate.svg" align="right" height="300px">
 
