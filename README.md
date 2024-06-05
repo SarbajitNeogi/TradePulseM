@@ -108,7 +108,7 @@ TradePulse is a robust online trading application developed to cater to the need
 
 For more detailed information about the TradePulse app, please refer to the following documents:
 
-- [TradePulse Report](link-to-your-report): Comprehensive report detailing the features, architecture, and implementation of TradePulse.
+- [TradePulse Report](Report_trade_pulse.docx) : Comprehensive report detailing the features, architecture, and implementation of TradePulse.
 
 
 
