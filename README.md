@@ -104,7 +104,11 @@ TradePulse is a robust online trading application developed to cater to the need
 - **database.db:** SQLite database file storing user and appointment information.
 - **Data:** Contains CSV files used for training and testing the disease prediction model.
 
-## Workflow Explanation
+## Documentation
+
+For more detailed information about the TradePulse app, please refer to the following documents:
+
+- [TradePulse Report](link-to-your-report): Comprehensive report detailing the features, architecture, and implementation of TradePulse.
 
 
 
